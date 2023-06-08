@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PERSONAL WEBPAGE</title> 
+  
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><!--cdn link about icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://icofont.com/icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+  
+  <nav class="navbar navbar-expand-sm  navbar-expand-lg navbar-expand-md navbar-light" style="background-color:gray;"> <h1 class="logo me-auto me-lg-0 " style="letter-spacing: 1px; color:#000000 ;">Welcome</h1>
+    <div class="container-fluid">
+       <button class="navbar-toggler btn-sm " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"  aria-label="Toggle navigation">
+       <span>menu</span>
+       </button>
+       <span class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav fw-bold rounded  bg- ms-auto">              
+             <li class="nav-item  ">
+                <a style="color: black;" class="nav-link" href="#aboutMain">About</a>
+             </li>
+             
+             
+             <li class="nav-item">
+                <a style="color: black;" class="nav-link" href="Resume1.html"> <i class="fas fa-documents"></i>
+                  Resume</a>
+             </li>
+             <li class="nav-item">
+                <a style="color: black;" class="nav-link" href="Resume1.html#projectSection">Projects</a>
+             </li>
+             <li class="nav-item">
+              <a style="color: black;" class="nav-link" href="#contact">Contact</a>
+           </li>
+          </ul>
+       </span>
+    </div>
+ </nav>
+ <main>
+    <!--
+      - #SIDEBAR
+    -->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img id="avatherImg" src="assets\iamges\my-avatar.png"  alt="image" width="80">
+        </figure>
+        <section id="hero" class="d-flex align-items-center">
+          <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
+            <h1 id="about_1">Hello, I'm Vithin Kanthraj</h1>
+            <div class="info-content">
+              <p class="title">Pursuing BCA (Bachelor of Computer Applications)</p>
+              <a download class="title" id="download-btn"  href="assets\iamges\VITHIN_K_Resume_20-05-2023-10-50-00.pdf">Download CV</a>
+            </div>           
+          </div>
+        </section>    
+       <button id="moreBtn" class="info_more-btn" data-sidebar-btn>Show Contacts
+         <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator mt-3"></div>
+        <div class="container mt-4">
+        <ul class="contacts-list">
+       
+          <li class="contact-item">
+
+            <div class="icon-box ">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:myvithin@gmail.com" class="contact-link">myvithin@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+8951853204" class="contact-link">+91 (8951853204)</a>
+            </div>
+          </li>
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Contact Location</p>
+
+              <address>Davanagere, Karanataka, INDIA</address>
+            </div>
+
+          </li>
+
+        </ul>
+    </div>
+    </aside>
+  </main>
+
+  <!-- About section/bar -->
+  <main id="aboutMain">
+    <!--
+      - #aboutbar
+    -->
+    <aside class="about_bar border" data-aboutBar>
+      <div class="aboutBarInfo-info">
+      </div>
+      <div class="about_more_info" style="background-color:#000000;">
+        <section id="hero" class="d-flex align-items-center">
+          <div class="container d-flex flex-column ">
+            <div>
+              <h2 id="about_2">About Me</h2>
+            </div>
+            <div class="info-content">
+              <section id="about">
+                <div class="conatiner p-5">
+                  <div class="row">
+                    <div class="col-12">
+                      <h2 id="aboutText">I am a programmer and a BCA student hailing from Davanagere.</h2>
+                    </div>
+                    <div class="col-12">
+                      <p id="aboutText" class="fst-italic ">
+                        Currently studying BCA degree at ICCA College in Davanagere.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-8 col-md-7 col-12">
+                      <img src="assets\iamges\hktn-img.jpg" class="img-fluid img-wrapper d-block rounded-circle photo-shadow"
+                        style="height: 300px; width:470px;" alt="490">
+                    </div>
+                    <div class="col-lg-8 col-sm-12 col-md-6 pt-lg-5" style="display:inline-flex;">
+                      <div id="detailsDiv1">
+                        <ul id="aboutText">
+                          <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>20 May 2003</span></li>
+                          <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+8951853204</span></li>
+                          <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Davavangere Karanataka,
+                              INDIA</span></li>
+                        </ul>
+                      </div>
+                      <div>
+                        <ul id="aboutText" style="border: 1px;">
+                          <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>19</span></li>
+                          <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Undergraduate</span></li>
+                          <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>mevithink@gmail.com</span></li>
+                          <li><i class="bi bi-chevron-right"></i> <strong>Collge Website:</strong> <span><a
+                                href="https://iccadvg.org/">ICCA.DVG</a></span></li>
+                        </ul>
+        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <p id="aboutText" class="py-3 ps-lg-5 ps-md-5">
+                        With a strong foundation in various programming languages, I am well-equipped to excel in the IT
+                        industry. My college and passion for learning have enabled me to acquire advanced knowledge in software
+                        development and problem-solving.
+                      </p>
+                      <p id="aboutText" class="m-0 ps-lg-5  ps-md-5">
+                        I am committed to staying updated with the latest industry trends, ensuring my readiness to contribute
+                        effectively in the IT sector. With my exceptional programming abilities and drive for success, I am
+                        prepared to make a significant impact in the IT industry in no time.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section><!-- End About Section -->
+            </div>
+          </div>
+
+        </section> 
+      </div>
+    </div>
+    </aside>
+ </main>
+ <!-- about skills section -->
+
+  <div id="CompetenciesConatiner" class="container-fluid ">
+    <h2 id="KeyCompetencies" class="">Key Competencies</h2>
+    <div class="skills-container pt-3 ">
+      <div class="skill-card ">
+        <span class="skill-icon"><i class="fas fa-comments"></i></span>
+        <h3 class="skill-name">Communication</h3>
+        <p class="skill-description">Effective verbal and written communication</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon"><i class="fas fa-puzzle-piece"></i></span>
+        <h3 class="skill-name">Problem-solving</h3>
+        <p class="skill-description">Analytical thinking and creative problem-solving</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon"><i class="fas fa-users"></i></span>
+        <h3 class="skill-name">Leadership</h3>
+        <p class="skill-description">Motivating and guiding teams towards success</p>
+      </div>
+      <div class="container">
+  
+        <div class="skills-container">
+          <div class="skill-card">
+            <span class="skill-icon"><i class="fas fa-bolt"></i></span>
+            <h3 class="skill-name">Self-Motivation</h3>
+            <p class="skill-description">Having a strong internal drive and taking initiative to work towards
+              self-improvement and success.</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon"><i class="fas fa-clock"></i></span>
+            <h3 class="skill-name">Time Management</h3>
+            <p class="skill-description">Effectively setting priorities, organizing tasks, and maximizing productivity to
+              achieve goals efficiently.</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon"><i class="fas fa-book"></i></span>
+            <h3 class="skill-name">Continuous Learning</h3>
+            <p class="skill-description">Embracing a growth mindset and being open to learning new things to adapt and
+              acquire new knowledge and skills.</p>
+          </div>
+  
+        </div>
+      </div>
+  
+    </div>
+  </div>
+<section id="contact" style="background-color: #000000;" class="contact pt-5">
+  <div class="container">
+
+    <div class="section-title">
+      <h2 class="font">Contact</h2>
+      <p class="fw-bold text-white fa-2x">You can connect me in all these ways ,feel free to contact me-</p>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-12">
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="info-box">
+              <i class="faa  fa fa-share"></i>
+              <!-- <i class="fa fa-icofont-share"></i> -->
+              <h3>Social Profiles</h3>
+              <div class="d-flex" style="font-size: 25px;">
+                <a class="px-2" target="_blank" href="https://www.linkedin.com/in/vithin-k-584b65233/"><i
+                    class="fa-brands fa-linkedin fa-beat fa-lg" style="color: #4284f5;"></i></a>
+                <a class="px-2" href="https://www.youtube.com/channel/UCkcFO3qHvF9_4uwgT_lx4PQ" target="_blank"><i
+                    class="fa-brands fa-square-youtube fa-beat fa-lg " style="color: #ff0000;"></i></a>
+                <a class="px-2" href="https://twitter.com/_vithink" target="_blank"><i
+                    class="fa-brands fa-twitter-square fa-beat fa-lg mb-2" style="color: #125fe2;"></i></a>
+                <a class="px-2" href="https://join.skype.com/invite/vQGhNS106Q1d" target="_blank"><i
+                    class="fa-brands fa-skype fa-beat fa-lg mb-2" style="color: #125fe2;"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info-box mt-4">
+              <i class="faa fa fa-envelope"></i>
+              <h3>Email Me</h3>
+              <a href="mailto:mevithink@gmail.com">
+                <p style="color:white; font-weight: bold;font-size:20px;">
+                  mevithink@gmail.com</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info-box mt-4">
+              <i class="faa fa fa-phone"></i>
+              <h3>Call Me</h3>
+              <a href="callto:8951853204">
+                <p style="color:white; font-weight: bold;font-size: 20px;">+91 8951853204</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Contact Me Section -->
+
+<!-- End < ======= Social links ======= -->
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="container">
+    <div class="copyright">
+      &copy; </span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      -Designed by Vithin k</a>
+    </div>
+  </div>
+</footer>
+<!-- End  Footer -->
+ 
+<button id="scrollButton" class="scroll-button fa fa-upward">🔝</button>
+<script src="./assets/js/script.js"></script>
+<!--
+    - ionicon link
+  -->
+
+  <!-- Bootstrap JS and Font Awesome icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
