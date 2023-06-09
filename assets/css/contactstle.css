@@ -42,4 +42,6 @@ form button{
     color: #fff;
     font-size: 18px;
     margin: 10px auto 0;
+    width: 150px;
+    border-radius: 12px;
 }
