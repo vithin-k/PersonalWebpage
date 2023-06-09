@@ -677,3 +677,7 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
   width: 350px;
   margin: 100px;
 }
+#name ,#phoneno,#gmail,#message
+{
+  margin: 20px;
+}
