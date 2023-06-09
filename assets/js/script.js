@@ -25,7 +25,7 @@ sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); }
 function sendEmail()
 {
   Email.send({
-    Host : "smtp.email.com",
+    Host : "smtp.gmail.com",
     Username : "myvithin@gmail.com",
     Password : "kanthraj@123",
     To : 'myvithin@gmail.com',
