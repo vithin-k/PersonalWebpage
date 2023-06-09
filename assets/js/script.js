@@ -22,5 +22,17 @@ sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); }
     }
   });
 
-
-  
+function sendEmail()
+{
+  Email.send({
+    Host : "smtp.email.com",
+    Username : "usemyvithin@gmail.com",
+    Password : "kanthraj@123",
+    To : 'myvithin@gmail.com.com',
+    From : document.getElementById('gmail').value,
+    Subject : "This is the subject",
+    Body : document.getElementById('message').value,
+}).then(
+  message => alert("Message sent successfully")
+); 
+} 
