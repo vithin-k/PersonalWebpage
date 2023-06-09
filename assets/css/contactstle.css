@@ -36,3 +36,10 @@ form input ,form textarea{
     background: #f5f5f5;
     font-size: 16px;
 } 
+form button{
+    padding: 15px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    margin: 10px auto 0;
+}
